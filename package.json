@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-hygen-cli",
+  "version": "1.0.0",
+  "description": "```bash\r # 英文大小寫轉換\r h.camel( str )\r h.constant( str )\r h.dot( str )\r h.header( str )\r h.isLower( str )\r h.isUpper( str )\r h.lower( str )\r h.lcFirst( str )\r h.no( str )\r h.param( str )\r h.pascal( str )\r h.path( str )\r h.sentence( str )\r h.snake( str )\r h.swap( str )\r h.title( str )\r h.upper( str )\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benknightdark/nextjs-hygen-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benknightdark/nextjs-hygen-cli/issues"
+  },
+  "homepage": "https://github.com/Benknightdark/nextjs-hygen-cli#readme"
+}
