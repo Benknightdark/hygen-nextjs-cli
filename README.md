@@ -1,3 +1,9 @@
+# nextjs-hygen-cli
+```bash
+npm i -g hygen
+npm i -g hygen-add
+
+```
 ```bash
 # 英文大小寫轉換
 h.camel( str )
