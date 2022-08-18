@@ -11,6 +11,28 @@ const <%= h.capitalize(name) %> = () => {
   );
 }
 
+<%= h.capitalize(name) %>.getLayout = function getLayout(page: ReactElement) {
+    return (
+        <div>
+            {page}
+        </div>
+    )
+}
+
+# Statically Page Data Fetching
+# export async function getStaticProps(context) {
+#   return {
+#     props: {} // will be passed to the page component as props
+#   }
+# }
+
+# Server-Side Page Data Fetching
+# export async function getServerSideProps(context) {
+#   return {
+#     props: {} // will be passed to the page component as props
+#   }
+# }
+
 export default <%= h.capitalize(name) %>;
 
 
