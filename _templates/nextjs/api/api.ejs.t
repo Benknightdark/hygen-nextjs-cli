@@ -1,11 +1,14 @@
 ---
-to: ./pages/api/<%= path %>/<%= name %>.tsx
+to: ./pages/api/<%= name %>.tsx
 force: true
 ---
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-export default (req: NextApiRequest, res: NextApiResponse) => {
-  res.status(200).json({ name: 'yo' })
+export default async function handler(
+    req: NextApiRequest,
+    res: NextApiResponse
+) {
+    res.status(200).json({});
 }
 
 
