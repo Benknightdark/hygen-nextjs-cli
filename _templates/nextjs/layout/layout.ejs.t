@@ -1,5 +1,5 @@
 ---
-to: ./pages/utils/<%= name %>.tsx
+to: ./pages/utils/layout.tsx
 force: true
 ---
 
