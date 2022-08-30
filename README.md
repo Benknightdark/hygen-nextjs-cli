@@ -2,7 +2,7 @@
 ```bash
 npm i -g hygen
 npm i -g hygen-add
-
+hygen-add https://github.com/Benknightdark/hygen-nextjs-cli
 ```
 ```bash
 # 英文大小寫轉換
